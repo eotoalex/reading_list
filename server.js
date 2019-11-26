@@ -1,8 +1,14 @@
 const express = require("express");
 
 const mongoose = require("mongoose");
+
+
 const routes = require("./routes");
+
+
 const app = express();
+
+// Pushing up to heroku
 const PORT = process.env.PORT || 3001;
 
 // Define middleware here
